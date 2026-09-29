@@ -1,64 +1,297 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard Page</title>
     <link rel="stylesheet" href="dashboard.css">
 </head>
+
 <body>
     <div class="container">
         <div class="nav-header">
-        <nav>
-            <div class="input-logo">
-                <div class="logo">
-                    <img src="download.png" alt="">
-                </div>
-                <div class="main-input">
-                    <div class="search-icon">
-                        <img src="download (4).png" alt="">
+            <nav>
+                <div class="input-logo">
+                    <div class="logo">
+                        <img src="download.png" alt="">
                     </div>
-                    <div class="input">
-                        <input type="search" placeholder="Search">
+                    <div class="main-input">
+                        <div class="search-icon">
+                            <img src="download (4).png" alt="">
+                        </div>
+                        <div class="input">
+                            <input type="search" placeholder="Search">
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="icons">
-                <div class="icon1">
-                    <a href="index.html">
-                <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor" class="x14rh7hd x1lliihq x1tzjh5l x1k90msu x2h7rmj x1qfuztq" style="--x-color:var(--primary-button-background)"><path d="M9.464 1.286C10.294.803 11.092.5 12 .5c.908 0 1.707.303 2.537.786.795.462 1.7 1.142 2.815 1.977l2.232 1.675c1.391 1.042 2.359 1.766 2.888 2.826.53 1.059.53 2.268.528 4.006v4.3c0 1.355 0 2.471-.119 3.355-.124.928-.396 1.747-1.052 2.403-.657.657-1.476.928-2.404 1.053-.884.119-2 .119-3.354.119H7.93c-1.354 0-2.471 0-3.355-.119-.928-.125-1.747-.396-2.403-1.053-.656-.656-.928-1.475-1.053-2.403C1 18.541 1 17.425 1 16.07v-4.3c0-1.738-.002-2.947.528-4.006.53-1.06 1.497-1.784 2.888-2.826L6.65 3.263c1.114-.835 2.02-1.515 2.815-1.977zM10.5 13A1.5 1.5 0 0 0 9 14.5V21h6v-6.5a1.5 1.5 0 0 0-1.5-1.5h-3z"></path></svg>
-                </a>
-               </div>
-               <div class="icon2">
-                <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor" class="x14rh7hd x1lliihq x1tzjh5l x1k90msu x2h7rmj x1qfuztq" style="--x-color:var(--secondary-icon)"><path d="M10.996 12.132A1 1 0 0 0 9.5 13v4a1 1 0 0 0 1.496.868l3.5-2a1 1 0 0 0 0-1.736l-3.5-2z"></path><path d="M12.075 1h-.15C9.632 1 7.81 1 6.38 1.192c-1.472.198-2.674.616-3.623 1.565-.949.95-1.367 2.15-1.565 3.623C1 7.81 1 9.632 1 11.925v.15c0 2.293 0 4.116.192 5.545.198 1.472.616 2.674 1.565 3.623.95.949 2.15 1.367 3.623 1.565C7.81 23 9.632 23 11.925 23h.15c2.293 0 4.116 0 5.545-.192 1.472-.198 2.674-.616 3.623-1.565.949-.95 1.367-2.15 1.565-3.623.192-1.43.192-3.252.192-5.545v-.15c0-2.293 0-4.116-.192-5.545-.198-1.472-.616-2.674-1.565-3.623-.95-.949-2.15-1.367-3.623-1.565C16.19 1 14.368 1 12.075 1zM4.172 4.172c.515-.516 1.224-.83 2.475-.998l.183-.023L8.113 7H3.132c.013-.121.027-.239.042-.353.168-1.25.482-1.96.998-2.475zM10.22 7 8.895 3.023C9.778 3 10.801 3 12 3c.642 0 1.234 0 1.78.004L15.114 7H10.22zm6.253 2h4.507c.02.86.02 1.848.02 3 0 2.385-.002 4.074-.174 5.353-.168 1.25-.482 1.96-.998 2.475-.515.516-1.224.83-2.475.998-1.28.172-2.968.174-5.353.174s-4.074-.002-5.353-.174c-1.25-.168-1.96-.482-2.475-.998-.516-.515-.83-1.224-.998-2.475C3.002 16.073 3 14.385 3 12c0-1.152 0-2.14.02-3h13.454zm.747-2-1.316-3.949c.537.026 1.016.065 1.448.123 1.25.168 1.96.482 2.475.998.516.515.83 1.224.998 2.475.015.114.03.232.042.353H17.22z"></path></svg>
-               </div>
+                <div class="icons">
+                    <div class="icon1">
+                        <a href="index.html">
+                            <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"
+                                class="x14rh7hd x1lliihq x1tzjh5l x1k90msu x2h7rmj x1qfuztq"
+                                style="--x-color:var(--primary-button-background)">
+                                <path
+                                    d="M9.464 1.286C10.294.803 11.092.5 12 .5c.908 0 1.707.303 2.537.786.795.462 1.7 1.142 2.815 1.977l2.232 1.675c1.391 1.042 2.359 1.766 2.888 2.826.53 1.059.53 2.268.528 4.006v4.3c0 1.355 0 2.471-.119 3.355-.124.928-.396 1.747-1.052 2.403-.657.657-1.476.928-2.404 1.053-.884.119-2 .119-3.354.119H7.93c-1.354 0-2.471 0-3.355-.119-.928-.125-1.747-.396-2.403-1.053-.656-.656-.928-1.475-1.053-2.403C1 18.541 1 17.425 1 16.07v-4.3c0-1.738-.002-2.947.528-4.006.53-1.06 1.497-1.784 2.888-2.826L6.65 3.263c1.114-.835 2.02-1.515 2.815-1.977zM10.5 13A1.5 1.5 0 0 0 9 14.5V21h6v-6.5a1.5 1.5 0 0 0-1.5-1.5h-3z">
+                                </path>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="icon2">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"
+                            class="x14rh7hd x1lliihq x1tzjh5l x1k90msu x2h7rmj x1qfuztq"
+                            style="--x-color:var(--secondary-icon)">
+                            <path
+                                d="M10.996 12.132A1 1 0 0 0 9.5 13v4a1 1 0 0 0 1.496.868l3.5-2a1 1 0 0 0 0-1.736l-3.5-2z">
+                            </path>
+                            <path
+                                d="M12.075 1h-.15C9.632 1 7.81 1 6.38 1.192c-1.472.198-2.674.616-3.623 1.565-.949.95-1.367 2.15-1.565 3.623C1 7.81 1 9.632 1 11.925v.15c0 2.293 0 4.116.192 5.545.198 1.472.616 2.674 1.565 3.623.95.949 2.15 1.367 3.623 1.565C7.81 23 9.632 23 11.925 23h.15c2.293 0 4.116 0 5.545-.192 1.472-.198 2.674-.616 3.623-1.565.949-.95 1.367-2.15 1.565-3.623.192-1.43.192-3.252.192-5.545v-.15c0-2.293 0-4.116-.192-5.545-.198-1.472-.616-2.674-1.565-3.623-.95-.949-2.15-1.367-3.623-1.565C16.19 1 14.368 1 12.075 1zM4.172 4.172c.515-.516 1.224-.83 2.475-.998l.183-.023L8.113 7H3.132c.013-.121.027-.239.042-.353.168-1.25.482-1.96.998-2.475zM10.22 7 8.895 3.023C9.778 3 10.801 3 12 3c.642 0 1.234 0 1.78.004L15.114 7H10.22zm6.253 2h4.507c.02.86.02 1.848.02 3 0 2.385-.002 4.074-.174 5.353-.168 1.25-.482 1.96-.998 2.475-.515.516-1.224.83-2.475.998-1.28.172-2.968.174-5.353.174s-4.074-.002-5.353-.174c-1.25-.168-1.96-.482-2.475-.998-.516-.515-.83-1.224-.998-2.475C3.002 16.073 3 14.385 3 12c0-1.152 0-2.14.02-3h13.454zm.747-2-1.316-3.949c.537.026 1.016.065 1.448.123 1.25.168 1.96.482 2.475.998.516.515.83 1.224.998 2.475.015.114.03.232.042.353H17.22z">
+                            </path>
+                        </svg>
+                    </div>
 
-               <div class="icon3">
-                <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor" class="x14rh7hd x1lliihq x1tzjh5l x1k90msu x2h7rmj x1qfuztq" style="--x-color:var(--secondary-icon)"><path d="M.5 12c0 6.351 5.149 11.5 11.5 11.5S23.5 18.351 23.5 12 18.351.5 12 .5.5 5.649.5 12zm2 0c0-.682.072-1.348.209-1.99a2 2 0 0 1 0 3.98A9.539 9.539 0 0 1 2.5 12zm.84-3.912A9.502 9.502 0 0 1 12 2.5a9.502 9.502 0 0 1 8.66 5.588 4.001 4.001 0 0 0 0 7.824 9.514 9.514 0 0 1-1.755 2.613A5.002 5.002 0 0 0 14 14.5h-4a5.002 5.002 0 0 0-4.905 4.025 9.515 9.515 0 0 1-1.755-2.613 4.001 4.001 0 0 0 0-7.824zM12 5a4 4 0 1 1 0 8 4 4 0 0 1 0-8zm-2 4a2 2 0 1 0 4 0 2 2 0 0 0-4 0zm11.291 1.01a9.538 9.538 0 0 1 0 3.98 2 2 0 0 1 0-3.98zM16.99 20.087A9.455 9.455 0 0 1 12 21.5c-1.83 0-3.54-.517-4.99-1.414a1.004 1.004 0 0 1-.01-.148V19.5a3 3 0 0 1 3-3h4a3 3 0 0 1 3 3v.438a1 1 0 0 1-.01.148z"></path></svg>
-               </div>
-
-               <div class="icon4">
-                <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor" class="x14rh7hd x1lliihq x1tzjh5l x1k90msu x2h7rmj x1qfuztq" style="--x-color:var(--secondary-icon)"><path d="M8 8a1 1 0 0 1 1 1v2h2a1 1 0 1 1 0 2H9v2a1 1 0 1 1-2 0v-2H5a1 1 0 1 1 0-2h2V9a1 1 0 0 1 1-1zm8 2a1.5 1.5 0 1 0 3 0 1.5 1.5 0 0 0-3 0zm-2 4a1.5 1.5 0 1 0 3 0 1.5 1.5 0 0 0-3 0z"></path><path d="M.5 11a7 7 0 0 1 7-7h9a7 7 0 0 1 7 7v2a7 7 0 0 1-7 7h-9a7 7 0 0 1-7-7v-2zm7-5a5 5 0 0 0-5 5v2a5 5 0 0 0 5 5h9a5 5 0 0 0 5-5v-2a5 5 0 0 0-5-5h-9z"></path></svg>
-               </div>
-            </div>
-            <div class="nav-right">
-                <div class="box1">
-                    <img src="download (5).png" alt="">
-                </div>
-                <div class="box2">
-                    <img src="download (6).png" alt="">
-                </div>
-                <div class="box3">
-                    <div class="five">
-                        <p>5</p>
+                    <div class="icon3">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"
+                            class="x14rh7hd x1lliihq x1tzjh5l x1k90msu x2h7rmj x1qfuztq"
+                            style="--x-color:var(--secondary-icon)">
+                            <path
+                                d="M.5 12c0 6.351 5.149 11.5 11.5 11.5S23.5 18.351 23.5 12 18.351.5 12 .5.5 5.649.5 12zm2 0c0-.682.072-1.348.209-1.99a2 2 0 0 1 0 3.98A9.539 9.539 0 0 1 2.5 12zm.84-3.912A9.502 9.502 0 0 1 12 2.5a9.502 9.502 0 0 1 8.66 5.588 4.001 4.001 0 0 0 0 7.824 9.514 9.514 0 0 1-1.755 2.613A5.002 5.002 0 0 0 14 14.5h-4a5.002 5.002 0 0 0-4.905 4.025 9.515 9.515 0 0 1-1.755-2.613 4.001 4.001 0 0 0 0-7.824zM12 5a4 4 0 1 1 0 8 4 4 0 0 1 0-8zm-2 4a2 2 0 1 0 4 0 2 2 0 0 0-4 0zm11.291 1.01a9.538 9.538 0 0 1 0 3.98 2 2 0 0 1 0-3.98zM16.99 20.087A9.455 9.455 0 0 1 12 21.5c-1.83 0-3.54-.517-4.99-1.414a1.004 1.004 0 0 1-.01-.148V19.5a3 3 0 0 1 3-3h4a3 3 0 0 1 3 3v.438a1 1 0 0 1-.01.148z">
+                            </path>
+                        </svg>
                     </div>
-                    <img src="download (7).png" alt="">
+
+                    <div class="icon4">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"
+                            class="x14rh7hd x1lliihq x1tzjh5l x1k90msu x2h7rmj x1qfuztq"
+                            style="--x-color:var(--secondary-icon)">
+                            <path
+                                d="M8 8a1 1 0 0 1 1 1v2h2a1 1 0 1 1 0 2H9v2a1 1 0 1 1-2 0v-2H5a1 1 0 1 1 0-2h2V9a1 1 0 0 1 1-1zm8 2a1.5 1.5 0 1 0 3 0 1.5 1.5 0 0 0-3 0zm-2 4a1.5 1.5 0 1 0 3 0 1.5 1.5 0 0 0-3 0z">
+                            </path>
+                            <path
+                                d="M.5 11a7 7 0 0 1 7-7h9a7 7 0 0 1 7 7v2a7 7 0 0 1-7 7h-9a7 7 0 0 1-7-7v-2zm7-5a5 5 0 0 0-5 5v2a5 5 0 0 0 5 5h9a5 5 0 0 0 5-5v-2a5 5 0 0 0-5-5h-9z">
+                            </path>
+                        </svg>
+                    </div>
                 </div>
-                <div class="box4">   
+                <div class="nav-right">
+                    <div class="box1">
+                        <img src="download (5).png" alt="">
+                    </div>
+                    <div class="box2">
+                        <img src="download (6).png" alt="">
+                    </div>
+                    <div class="box3">
+                        <div class="five">
+                            <p>5</p>
+                        </div>
+                        <img src="download (7).png" alt="">
+                    </div>
+                    <div class="box4">
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <div class="main">
+            <div class="left-sidbar">
+                <div class="fixed">
+                    <div class="repeat-content">
+                        <div class="profil-image">
+                            <img src="0d1c44cb-3bc6-4be9-8ca9-b3f7d7abb540.jpg" alt="">
+                        </div>
+                        <div class="text-profile">
+                            <h3>Muhammad.Bilal Khan</h3>
+                        </div>
+                    </div>
+                    <div class="repeat">
+                        <div class="profil2-image">
+                            <i data-visualcompletion="css-img" class=""
+                                style="background-image:url('https://static.xx.fbcdn.net/rsrc.php/y8/r/iriWsqSNzIx.webp?_nc_eui2=AeF2wJ9WUwTiGDfwMfclTwXUKHd-GOT38mgod34Y5PfyaF_b7vUvScNgL1BzrrlDrvyXoMmWGapMlH4tS5KhBx6A');background-position:0 0;background-size:auto;width:36px;height:36px;background-repeat:no-repeat;display:inline-block"></i>
+                        </div>
+                        <div class="text-profile">
+                            <h3>Meta Al</h3>
+                        </div>
+                    </div>
+
+
+
+                    <div class="repeat">
+                        <div class="profil2-image">
+                            <i data-visualcompletion="css-img" class=""
+                                style="background-image:url('https://static.xx.fbcdn.net/rsrc.php/yA/r/BY-cnZEKEQQ.webp?_nc_eui2=AeHn0JGbzQIK5zr2znAunlBBBqhvH_QpFpUGqG8f9CkWlT8Fm5KzhDOdqtQ5gKjTGQNP1rEqOgO19kL9ATK95QMN');background-position:0 -814px;background-size:auto;width:36px;height:36px;background-repeat:no-repeat;display:inline-block"></i>
+                        </div>
+                        <div class="text-profile">
+                            <h3>Friends</h3>
+                        </div>
+                    </div>
+
+
+
+                    <div class="repeat">
+                        <div class="profil2-image">
+                            <i data-visualcompletion="css-img" class=""
+                                style="background-image:url('https://static.xx.fbcdn.net/rsrc.php/yA/r/BY-cnZEKEQQ.webp?_nc_eui2=AeHn0JGbzQIK5zr2znAunlBBBqhvH_QpFpUGqG8f9CkWlT8Fm5KzhDOdqtQ5gKjTGQNP1rEqOgO19kL9ATK95QMN');background-position:0 -1295px;background-size:auto;width:36px;height:36px;background-repeat:no-repeat;display:inline-block"></i>
+                        </div>
+                        <div class="text-profile">
+                            <h3>Dashboard</h3>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="repeat">
+                        <div class="profil2-image">
+                            <i data-visualcompletion="css-img" class=""
+                                style="background-image:url('https://static.xx.fbcdn.net/rsrc.php/yA/r/BY-cnZEKEQQ.webp?_nc_eui2=AeHn0JGbzQIK5zr2znAunlBBBqhvH_QpFpUGqG8f9CkWlT8Fm5KzhDOdqtQ5gKjTGQNP1rEqOgO19kL9ATK95QMN');background-position:0 -1184px;background-size:auto;width:36px;height:36px;background-repeat:no-repeat;display:inline-block"></i>
+                        </div>
+                        <div class="text-profile">
+                            <h3>Memories</h3>
+                        </div>
+                    </div>
+
+
+                    <div class="repeat">
+                        <div class="profil2-image">
+                            <i data-visualcompletion="css-img" class=""
+                                style="background-image:url('https://static.xx.fbcdn.net/rsrc.php/yA/r/BY-cnZEKEQQ.webp?_nc_eui2=AeHn0JGbzQIK5zr2znAunlBBBqhvH_QpFpUGqG8f9CkWlT8Fm5KzhDOdqtQ5gKjTGQNP1rEqOgO19kL9ATK95QMN');background-position:0 -518px;background-size:auto;width:36px;height:36px;background-repeat:no-repeat;display:inline-block"></i>
+                        </div>
+                        <div class="text-profile">
+                            <h3>Saved</h3>
+                        </div>
+                    </div>
+
+
+
+                    <div class="repeat">
+                        <div class="profil2-image">
+                            <i data-visualcompletion="css-img" class=""
+                                style="background-image:url('https://static.xx.fbcdn.net/rsrc.php/yA/r/BY-cnZEKEQQ.webp?_nc_eui2=AeHn0JGbzQIK5zr2znAunlBBBqhvH_QpFpUGqG8f9CkWlT8Fm5KzhDOdqtQ5gKjTGQNP1rEqOgO19kL9ATK95QMN');background-position:0 -185px;background-size:auto;width:36px;height:36px;background-repeat:no-repeat;display:inline-block"></i>
+                        </div>
+                        <div class="text-profile">
+                            <h3>Groups</h3>
+                        </div>
+                    </div>
+
+
+                    <div class="repeat">
+                        <div class="profil2-image">
+                            <i data-visualcompletion="css-img" class=""
+                                style="background-image:url('https://static.xx.fbcdn.net/rsrc.php/yA/r/BY-cnZEKEQQ.webp?_nc_eui2=AeHn0JGbzQIK5zr2znAunlBBBqhvH_QpFpUGqG8f9CkWlT8Fm5KzhDOdqtQ5gKjTGQNP1rEqOgO19kL9ATK95QMN');background-position:0 -111px;background-size:auto;width:36px;height:36px;background-repeat:no-repeat;display:inline-block"></i>
+                        </div>
+                        <div class="text-profile">
+                            <h3>Reels</h3>
+                        </div>
+                    </div>
+
+                    <div class="repeat">
+                        <div class="profil3-image">
+                            <img src="download (8).png" alt="">
+                        </div>
+                        <div class="text-profile">
+                            <h3>See more</h3>
+                        </div>
+                    </div>
+                    <div class="sidbar-buttom">
+                        <h2>Your shortcuts</h2>
+                        <div class="main-repeat">
+                            <div class="repeat1">
+                                <div class="profil4-image">
+                                    <img src="0d1c44cb-3bc6-4be9-8ca9-b3f7d7abb540.jpg" alt="">
+                                </div>
+                                <div class="text-profile">
+                                    <h3>M.Bilal Khan</h3>
+                                </div>
+                            </div>
+
+                            <div class="repeat1">
+                                <div class="profil4-image">
+                                    <img src="0d1c44cb-3bc6-4be9-8ca9-b3f7d7abb540.jpg" alt="">
+                                </div>
+                                <div class="text-profile">
+                                    <h3>M.Bilal Khan</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </nav>
+            <div class="feed">
+                <div class="feed-header">
+                    <div class="input-profile-img">
+                        <div class="profile-img">
+                            <img src="http://127.0.0.1:5502/0d1c44cb-3bc6-4be9-8ca9-b3f7d7abb540.jpg" alt="">
+                        </div>
+                        <div class="profile-input">
+                            <input type="text" placeholder="What's on your mind, M.?">
+                        </div>
+                    </div>
+                    <div class="icons-diffrent-color">
+                        <button type="button" class="button">
+                           <img height="24" width="24" class="xz74otr x15mokao x1ga7v0g x16uus16 xbiv7yw" alt="" referrerpolicy="origin-when-cross-origin" src="https://static.xx.fbcdn.net/rsrc.php/yE/r/f0XMdTi7eQy.webp?_nc_eui2=AeE584LSJF4b3kLZGHuk3F2KWOK2rF8KwnxY4rasXwrCfITAyzhjQ65aJvGk4TfeyrkL0_vL-RBwe21fWQRctekL">
+                        </button>
+
+
+                        
+                          <button type="button" class="button">
+                           <img height="24" width="24" class="xz74otr x15mokao x1ga7v0g x16uus16 xbiv7yw" alt="" referrerpolicy="origin-when-cross-origin" src="https://static.xx.fbcdn.net/rsrc.php/yX/r/8_VnccIZfRa.webp?_nc_eui2=AeHGRYC08Tm5lVmykE84a1sYtIBijxuqePS0gGKPG6p49J5r8Noz2WQDiKNi5BADkfawh74_NM-lEE59kof27THa">
+                        </button>
+                        
+
+
+                         
+                          <button type="button" class="button">
+                          <img height="24" width="24" class="xz74otr x15mokao x1ga7v0g x16uus16 xbiv7yw" alt="" referrerpolicy="origin-when-cross-origin" src="https://static.xx.fbcdn.net/rsrc.php/yb/r/DgIQti9Y0Xv.webp?_nc_eui2=AeHoYhbyqxn-lVy2WZOFIfV9vMZPo5gB3n68xk-jmAHefvSvOHEqS9RA5SSrxEgSe5YRw-RMUICgge5Y8PCXrw3C">
+                        </button>
+                    </div>
+                </div>
+                <div class="reels">
+                    <div class="reels-box"></div>
+                    <div class="reels-box"></div>
+                    <div class="reels-box"></div>
+                    <div class="reels-box"></div>
+                    <div class="reels-box"></div>
+                </div>
+                <div class="post">
+
+                    <div class="post-header">
+                         <div class="profile-img">
+                            <img src="http://127.0.0.1:5502/0d1c44cb-3bc6-4be9-8ca9-b3f7d7abb540.jpg" alt="">
+                        </div>
+                        <div class="post-name">
+                            <h1>M.Bilal Khan </h1>
+                            <p>A day ago </p>
+                        </div>
+                    </div>
+                    <img class="xz74otr x15mokao x1ga7v0g x16uus16 xbiv7yw x1ey2m1c x5yr21d xtijo5x x1o0tod x10l6tqk x13vifvy xh8yej3" alt="" referrerpolicy="origin-when-cross-origin" src="https://scontent-bom5-1.xx.fbcdn.net/v/t39.99422-6/825292901_1098640385985355_4670418943963054943_n.png?stp=dst-jpg_tt6&amp;cstp=mx2048x1365&amp;ctp=s590x590&amp;_nc_cat=111&amp;ccb=1-7&amp;_nc_sid=127cfc&amp;_nc_eui2=AeElns-9iFGDc6cGnJMpTI9JAl9wNe8ZpWgCX3A17xmlaPFtB9JYPs1aWmEmJQYN0Q-T3AJPjfhTFZMxrbAgDrll&amp;_nc_ohc=ga0KOcygJUoQ7kNvwHy6NEE&amp;_nc_oc=Adrck4GRR3E_7d3h9OgrZpwNVZXLCMlqTeyFwyDy9MDoRXqlbIYnfA0CBtNkqLPi7Ahb47O5FAPRdkO6rP0FK8EA&amp;_nc_zt=14&amp;_nc_ht=scontent-bom5-1.xx&amp;_nc_gid=Olia9wmS4RgZNqS_A-CVdg&amp;_nc_ss=7b2a8&amp;oh=00_AQNn1H_LkcOsL_XcWvB88-O21ySRT2vkTyzvjY5BfE86IA&amp;oe=6AC1E3D1">
+                    </div>
+                </div>
+            </div>
+            <div class="right-sidbar">
+                <div class="right-sidbar-container">
+                    <div class="box-image-1">
+                        <div class="right-sidbar-img">
+                            <img src="https://scontent-bom5-1.xx.fbcdn.net/v/t45.1600-4/788155172_122187281054948261_3141560109461081512_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s526x296&_nc_cat=111&ccb=1-7&_nc_sid=526594&_nc_eui2=AeEoZa-FHHbzBUoAStQVMuHbZyr7U69cUK5nKvtTr1xQrt0K3h-iKTsut4DSDA6ySJYXm1YS8RohYQg5HpLYB2ku&_nc_ohc=bAh7mLzwSEUQ7kNvwHwDsyP&_nc_oc=Adqu1AzJSummYawqyZBDmTRcida2IsXhfA55LjuaDeZzoLCV_74eoWHC829m8xcUA1NSj872AV-oP44l05kAYNv-&_nc_zt=1&_nc_ht=scontent-bom5-1.xx&_nc_gid=y5qWjV6-ZuHMGXa0tmhm8w&_nc_ss=7b2a8&oh=00_AQNpnAAUJF_yiaoPM32ijc2mmswu5lumqy5W09o7nqKQEw&oe=6AC1384A"
+                                alt="">
+                        </div>
+                        <div class="right-sidbar-text">
+                            <h4>Find New Customers</h4>
+                            <p>getstarted.tiktok.com</p>
+                        </div>
+                    </div>
+                    <div class="box-image-2">
+                        <div class="right-sidbar-img-2">
+                            <img src="https://scontent-bom5-2.xx.fbcdn.net/v/t45.1600-4/643843024_33982712184709775_2960774899028421556_n.png?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s526x296&_nc_cat=108&ccb=1-7&_nc_sid=526594&_nc_eui2=AeFKLwZGf_XII5Zn5-i91vWRpblfxk22pCuluV_GTbakKzi8mqxzjg9FuLN9KMgGCvQJzDBWJsOAM3Sj7F3uU-Fq&_nc_ohc=LjjztxW387QQ7kNvwHlu8YV&_nc_oc=AdputJym91R1C3TphiLIQaUSvRQjm8Ga7XS06UvkKpljV81bty1ojPF1jlaF9dBSUwhg6kxu-t9kX6WzNzN4vr6N&_nc_zt=1&_nc_ht=scontent-bom5-2.xx&_nc_gid=Cjuhl20eFhqOX9zku9UiyQ&_nc_ss=7b2a8&oh=00_AQOIeCcm0zttNd9ZUZv9NhJUs7Q-4aGX0nmgWBQuBUQNzw&oe=6AC1505F" alt="">
+                        </div>
+                        <div class="right-sidbar-text-2">
+                            <h4>Speed,Privacy,Price Guaranteed</h4>
+                            <p>www.proxy</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
+
 </html>
