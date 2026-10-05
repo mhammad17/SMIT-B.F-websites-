@@ -32,49 +32,60 @@
 }
 
 .box2 {
-     width: 100%;
+    width: 100%;
     height: auto;
 }
-.logo{
+
+.logo {
     position: absolute;
 }
-.logo>img{
-    width:100%;
+
+.logo>img {
+    width: 100%;
     height: 70px;
     position: relative;
     top: 30px;
     left: 70px;
 }
 
-.text>h1{
+@media only screen and (max-width:1207px) {
+    .text>h1 {
+        font-size: 10px;
+    }
+}
+
+.text>h1 {
     font-family: arial;
     position: relative;
     top: 300px;
     left: 70px;
     font-size: 49px;
     font-weight: bold;
-    cursor:pointer;
+    cursor: pointer;
 }
 
-.box2>img{
+.box2>img {
     width: 100%;
     height: auto;
     margin-top: 50px;
 }
 
-#span{
+#span {
     color: rgb(24, 119, 242);
 }
-.form{
+
+.form {
     width: 90%;
     height: 400px;
     margin-top: 100px;
 }
-.form>h1{
-    font-family:arial;
+
+.form>h1 {
+    font-family: arial;
     font-weight: 560;
 }
-.email{
+
+.email {
     width: 98%;
     height: 70px;
     font-size: 20px;
@@ -84,11 +95,11 @@
     margin-top: 25px;
 }
 
-.email:hover{
+.email:hover {
     border: 1px solid black;
 }
 
-.password{
+.password {
     width: 98%;
     height: 70px;
     font-size: 20px;
@@ -98,12 +109,12 @@
     margin-top: 15px;
 }
 
-.password:hover{
+.password:hover {
     border: 1px solid black;
 }
 
-a>.button{
-    width:100%;
+a>.button {
+    width: 100%;
     height: 50px;
     font-size: 20px;
     padding-left: 10px;
@@ -114,12 +125,12 @@ a>.button{
     color: #ecf4ff;
 }
 
-a>.button:hover{
+a>.button:hover {
     background-color: rgb(1, 92, 202);
 }
 
-.forgot{
-    width:100%;
+.forgot {
+    width: 100%;
     height: 50px;
     font-size: 20px;
     padding-left: 10px;
@@ -127,14 +138,15 @@ a>.button:hover{
     margin-top: 15px;
     background-color: white;
     border: none;
-    color:black;
-}
-.forgot:hover{
-    background-color:rgb(236, 236, 236);
+    color: black;
 }
 
-a>.creat{
-    width:100%;
+.forgot:hover {
+    background-color: rgb(236, 236, 236);
+}
+
+a>.creat {
+    width: 100%;
     height: 50px;
     font-size: 20px;
     padding-left: 10px;
@@ -142,15 +154,259 @@ a>.creat{
     margin-top: 15px;
     background-color: white;
     border: 1px solid rgb(0, 100, 224);
-    color:rgb(0, 100, 224);
-}
-a>.creat:hover{
-    background-color:rgb(236, 236, 236);
+    color: rgb(0, 100, 224);
 }
 
-.form>img{
+a>.creat:hover {
+    background-color: rgb(236, 236, 236);
+}
+
+.form>img {
     width: 70px;
-    height:auto;
+    height: auto;
     margin-left: 250px;
     margin-top: 20px;
 }
+
+@media only screen and (min-width:952px) {
+    .form>img {
+        width: 70px;
+        height: auto;
+        margin-left: 180px;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width:951px) {
+    .form>img {
+        margin-left: 170px;
+    }
+}
+
+@media only screen and (max-width:1016px) {
+    .form>img {
+        margin-left: 210px;
+    }
+}
+
+@media only screen and (max-width:1401px) {
+    .form>img {
+        margin-left: 280px;
+    }
+}
+
+@media only screen and (max-width:2021px) {
+    .form>img {
+        margin-left: 380px;
+    }
+}
+
+@media only screen and (max-width:1706px) {
+    .form>img {
+        margin-left: 330px;
+    }
+}
+
+
+@media only screen and (max-width:1836px) {
+    .form>img {
+        margin-left: 370px;
+    }
+}
+
+@media only screen and (max-width:1896px) {
+    .form>img {
+        margin-left: 370px;
+    }
+}
+
+@media only screen and (max-width:1482px) {
+    .form>img {
+        margin-left: 200px;
+    }
+}
+
+
+
+@media only screen and (max-width:1826px) {
+    .form>img {
+        margin-left: 350px;
+    }
+}
+
+@media only screen and (max-width:1631px) {
+    .form>img {
+        margin-left: 320px;
+    }
+}
+
+@media only screen and (max-width:1636px) {
+    .form>img {
+        margin-left: 310px;
+    }
+}
+
+@media only screen and (max-width:1023px) {
+    .left {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:1023px) {
+    .form {
+        margin: auto;
+        width: 100%;
+        margin-left: 200px;
+    }
+}
+
+@media only screen and (max-width:1637px) {
+    .form>img {
+        margin-left: 320px;
+    }
+}
+
+@media only screen and (max-width:1662px) {
+    .form>img {
+        margin-left: 320px;
+    }
+}
+
+@media only screen and (max-width:1672px) {
+    .form>img {
+        margin-left: 320px;
+    }
+}
+
+@media only screen and (max-width:1562px) {
+    .form>img {
+        margin-left: 300px;
+    }
+}
+
+@media only screen and (max-width:1392px) {
+    .form>img {
+        margin-left: 270px;
+    }
+}
+
+@media only screen and (max-width:1397px) {
+    .form>img {
+        margin-left: 270px;
+    }
+}
+
+@media only screen and (max-width:1262px) {
+    .form>img {
+        margin-left: 250px;
+    }
+}
+
+
+@media only screen and (max-width:1162px) {
+    .form>img {
+        margin-left: 220px;
+    }
+}
+
+
+@media only screen and (max-width:1267px) {
+    .form>img {
+        margin-left: 240px;
+    }
+}
+
+
+@media only screen and (max-width:1417px) {
+    .form>img {
+        margin-left: 270px;
+    }
+}
+
+@media only screen and (max-width:1432px) {
+    .form>img {
+        margin-left: 280px;
+    }
+}
+
+
+@media only screen and (max-width:1262px) {
+    .form>img {
+        margin-left: 240px;
+    }
+}
+
+
+@media only screen and (max-width:1117px) {
+    .form>img {
+        margin-left: 210px;
+    }
+}
+
+
+@media only screen and (max-width:1122px) {
+    .form>img {
+        margin-left: 220px;
+    }
+}
+
+@media only screen and (max-width:1027px) {
+    .form>img {
+        margin-left: 200px;
+    }
+}
+
+
+@media only screen and (max-width:902px) {
+    .form>img {
+        margin-left: 190px;
+    }
+}
+
+@media only screen and (max-width:822px) {
+    .form>img {
+        margin-left: 170px;
+    }
+}
+@media only screen and (max-width:747px) {
+    .form>img {
+        margin-left: 150px;
+    }
+}
+
+@media only screen and (max-width:677px) {
+    .form>img {
+        margin-left: 140px;
+    }
+}
+
+@media only screen and (max-width:677px) {
+    .form {
+        margin-left: 140px;
+    }
+}
+
+@media only screen and (max-width:627px) {
+    .form>img {
+        margin-left: 120px;
+    }
+}
+
+@media only screen and (max-width:567px) {
+    .form>img {
+        margin-left: 100px;
+    }
+}
+
+@media only screen and (max-width:554px) {
+    .form>h1 {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width:514px) {
+    .form>img {
+        margin-left: 90px;
+    }
+}
+
