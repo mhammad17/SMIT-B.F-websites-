@@ -4,7 +4,7 @@
 }
 
 body {
-    /* background-color: black; */
+    background-color: black;
 }
 
 .container {
@@ -455,3 +455,75 @@ span {
 .btn-green>button:hover{
     background-color:black;
 }
+.openingsoon{
+    color: white ;
+    font-size: 45px;
+}
+
+
+.content5{
+    width: 100%;
+    height:auto;
+    background-color: rgb(33, 37, 41);
+}
+
+.content-grid{
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+    gap-row: 20px;
+    gap:50px;
+    margin-top: 50px;
+}
+
+.grid-box{
+    background-color: white;
+    box-shadow: 4px 5px 7px 3px rgb(0, 0, 0);
+    width: 370px;
+    height: 250px;
+    border-radius: 7px;
+    position: relative;
+    
+}
+
+.grid-icon>img{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 155px;
+    top:40px ;
+}
+
+.opening-soon{
+    text-align: center;
+    font-size: 12px;
+    color: #ED1C24;
+    margin-top: 120px;
+    font-family: arial;
+}
+.gp{
+    margin-left: 7px;
+}
+
+.grid-box>h1{
+    text-align: center;
+    font-size: 25px;
+    /* font-family: arial; */
+    margin-top: 7px;
+}
+
+.slt{
+    font-weight:700;
+    color: black;
+    font-family: arial;
+}
+.exp{
+    color: rgb(17, 17, 17);
+    margin-left: 8px;
+    font-weight: 500;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 10px;
+}
+
