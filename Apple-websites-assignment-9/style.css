@@ -3,6 +3,10 @@
     margin: 0px;
 }
 
+body {
+    background-color: rgb(245, 245, 247);
+}
+
 .container {
     width: 100%;
 }
@@ -25,14 +29,14 @@ nav {
 .list>ul {
     display: flex;
     gap: 50px;
-    color:gray;
+    color: gray;
     font-size: 12px;
     align-items: center;
     font-family: arial;
     list-style: none;
 }
 
-.list>ul>li:hover{
+.list>ul>li:hover {
     color: white;
     /* transform: calc(10px); */
 }
@@ -47,37 +51,360 @@ nav {
     width: 25px;
     height: 25px;
 }
-.search{
+
+.search {
     display: flex;
     align-items: center;
     gap: 10px;
 }
-.icon-search>img{
+
+.icon-search>img {
     width: 20px;
     height: 20px;
 }
 
-.icon-search>img:hover{
+.icon-search:hover {
     color: white;
 }
 
-.search-input>input{
+.search-input>input {
     width: 130px;
     height: 30px;
     padding-left: 10px;
     font-size: 12px;
-    border-top-right-radius:20px ;
-    border-bottom-left-radius:20px ;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: none;
+    background-color: black;
+}
+
+hr {
+    border: 1px solid white;
+}
+
+.search-input>input:hover {
     border: 1px solid red;
-    background-color:black;
 }
 
-.search-input>input:hover{
-    border: 1px solid green;
-}
-
-.banner{
-    background-image: url("");
+.banner {
+    background-image: url("pngtree-group-of-black-phones-shown-with-their-screens-and-data-image_2611806.jpg");
     width: 100%;
     background-size: cover;
+    height: 525px;
+    padding-top: 30px;
+    opacity: 10;
+}
+
+.banner-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.button-ek>button {
+    width: 150px;
+    height: 50px;
+    background-color: #006EDB;
+    border-radius: 50px;
+    border: none;
+    font-family: arial;
+    color: #e2f1ff;
+    font-size: 19px;
+}
+
+.button-ek>button:hover {
+    background-color: #0076DF;
+}
+
+.button-doo>button {
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1.5px solid #006EDB;
+    background-color: black;
+    color: #006EDB;
+    font-family: arial;
+    font-size: 19px;
+}
+
+.button-doo>button:hover {
+    color: #e2f1ff;
+    background-color: #006EDB;
+}
+
+.banner>h2 {
+    color: white;
+    font-family: arial;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.banner>h1 {
+    color: white;
+    font-family: arial;
+    font-size: 65px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.content1 {
+    width: 100%;
+    height: 580px;
+    background-color: white;
+}
+
+.cntr-box {
+    margin: auto;
+    width: 40%;
+    height: 100%;
+    /* background-color: #006EDB; */
+}
+
+.cntr-box>h1 {
+    color: rgb(29, 29, 31);
+    font-family: arial;
+    font-size: 65px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.cntr-box>h3 {
+    color: rgb(29, 29, 31);
+    font-family: arial;
+    font-size: 45px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.cntr-box>p {
+    color: rgb(29, 29, 31);
+    font-family: arial;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.cntr-box>img {
+    width: 100%;
+    margin-top: 15px;
+    height: auto;
+}
+
+.description {
+    width: 100%;
+    height: 35px;
+    background-color: rgb(240, 238, 238);
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.description>p {
+    text-align: center;
+    color: black;
+    font-family: arial;
+    font-size: 15px;
+}
+
+.content2-text {
+    display: flex;
+    align-items: center;
+    gap: 620px;
+    width: 90%;
+    height: 200px;
+    margin: auto;
+}
+
+.text-heading>h1 {
+    font-family: arial;
+    font-size: 50px;
+}
+
+.text-a>a:hover {
+    text-decoration: underline;
+}
+
+.text-a>a {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    font-family: arial;
+    text-decoration: none;
+    color: #006EDB;
+}
+
+.box-grid {
+    /* margin-top: 25px; */
+    width: 100%;
+    height: auto;
+    margin: auto;
+    /* background-color: red; */
+}
+
+.grid {
+    width: 90%;
+    height: auto;
+    display: flex;
+    /* grid-template-columns: 1fr 1fr; */
+
+    gap: 20px;
+    margin: auto;
+    /* background-color: green; */
+}
+
+.box {
+    width: 100%;
+    height: 90vh;
+    background-color: white;
+    box-shadow: -2px 1px 8px 3px #f1f1f1;
+    border-radius: 20px;
+}
+
+.box>h1 {
+    text-align: center;
+    font-family: arial;
+    font-size: 40px;
+    margin-top: 150px;
+}
+
+.box>p {
+    text-align: center;
+    font-family: arial;
+    font-size: 18px;
+    margin: 20px;
+}
+
+.box>img {
+    width: 100%;
+    height: 289px;
+    margin: auto;
+}
+
+.content3 {
+    width: 100%;
+    height: 150vh;
+    background-color: blue;
+    box-shadow: -2px 1px 8px 3px #f1f1f1;
+    margin: auto;
+    padding-top: 20px;
+    margin-top: 50px;
+}
+
+.content3>h3 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.content3>h4 {
+    text-align: center;
+    font-family: arial;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+.content3>h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-family: arial;
+    font-size: 60px;
+}
+
+.content3>p {
+    text-align: center;
+    margin-top: 20px;
+    font-family: arial;
+    font-size: 20px;
+}
+
+.content3>img {
+    margin-top: 20px;
+    text-align: center;
+    font-family: arial;
+    width: 100%;
+    height: 567px;
+}
+
+.content4 {
+    width: 100%;
+    height: auto;
+    background-color:white;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.main-button-div{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 90px;
+}
+.content-image {
+    width: 80%;
+    margin: auto;
+    /* padding-top: 40px; */
+    background-image: url("https://www.apple.com/v/iphone-duo/d/images/overview/product-viewer/display__bx48n0ntsgvm_large.jpg");
+    display: flex;
+    /* background-color: green; */
+    /* margin-top: 50px; */
+    justify-content: space-between;
+}
+.button:hover{
+    cursor: pointer;
+    background-color: rgba(224, 224, 224, 0.932);
+        box-shadow: -2px 1px 8px 3px #f1f1f1;
+}
+button {
+    width: 250px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    font-size: 20px;
+}
+.button1{
+    width: 230px;
+}
+.button2{
+    width: 210px;
+}
+
+.button3{
+    width: 170px;
+}
+
+.button4{
+    width: 170px;
+}
+
+.button5{
+    width: 180px;
+}
+
+.button6{
+    width: 200px;
+}
+
+.button7{
+    width: 210px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn-img>img {
+    width: 30px;
+    height: 30px;
+}
+
+.img>img {
+    width: 400px;
+
 }
