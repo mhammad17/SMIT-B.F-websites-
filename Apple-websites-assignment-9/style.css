@@ -260,9 +260,10 @@ hr {
 .box {
     width: 100%;
     height: 90vh;
-    background-color: white;
+    background-color: black;
     box-shadow: -2px 1px 8px 3px #f1f1f1;
     border-radius: 20px;
+    background-image: url("https://www.apple.com/v/apple-watch-series-12/b/images/overview/highlights/highlights_siri_ai_endframe__4asbndv8az6a_large.avif");
 }
 
 .box>h1 {
@@ -270,13 +271,17 @@ hr {
     font-family: arial;
     font-size: 40px;
     margin-top: 150px;
+    color: white;
 }
-
+.margin{
+    margin-top: 60px;
+}
 .box>p {
     text-align: center;
     font-family: arial;
     font-size: 18px;
     margin: 20px;
+    color: white;
 }
 
 .box>img {
@@ -287,12 +292,13 @@ hr {
 
 .content3 {
     width: 100%;
-    height: 150vh;
+    height: auto;
     /* background-color: blue; */
     box-shadow: -2px 1px 8px 3px #f1f1f1;
     margin: auto;
     padding-top: 20px;
     margin-top: 50px;
+    background-color: ;
 }
 
 .content3>h3 {
@@ -322,18 +328,23 @@ hr {
     font-size: 20px;
 }
 
+.content3{
+    width: 90%;
+}
+
 .content3>img {
     margin-top: 20px;
-    text-align: center;
     font-family: arial;
-    width: 100%;
-    height: 567px;
+    width: 90%;
+    height:700px;
+    margin-left: 70px;
+    border-radius: 20px;
 }
 
 .content4 {
     width: 100%;
     height: auto;
-    background-color:white;
+    background-color:black;
     margin-top: 100px;
     display: flex;
     justify-content: space-around;
@@ -341,14 +352,14 @@ hr {
 .main-button-div{
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 10px;
     margin-top: 90px;
 }
 .content-image {
     width: 80%;
     margin: auto;
     /* padding-top: 40px; */
-    background-image: url("https://www.apple.com/v/iphone-duo/d/images/overview/product-viewer/display__bx48n0ntsgvm_large.jpg");
+    background-image: url("https://www.apple.com/v/apple-watch-series-12/b/images/overview/readiness/fitness_hero__5h67iklblz62_large.avif");
     display: flex;
     /* background-color: green; */
     /* margin-top: 50px; */
@@ -356,15 +367,18 @@ hr {
 }
 .button:hover{
     cursor: pointer;
-    background-color: rgba(224, 224, 224, 0.932);
-        box-shadow: -2px 1px 8px 3px #f1f1f1;
+    background-color: white;
+        /* box-shadow: -2px 1px 8px 3px #f1f1f1; */
+        border: 2px solid #019e8e;
 }
 button {
     width: 250px;
     height: 50px;
     border-radius: 50px;
+    color:#00bdab;
     border: none;
     font-size: 20px;
+    background-color: white);
 }
 .button1{
     width: 230px;
