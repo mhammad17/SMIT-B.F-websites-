@@ -1,74 +1,129 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
 
-.container{
+.container {
     width: 98%;
+    height: auto;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 15px;
+    grid-template-columns: 30% 60%;
     margin: auto;
-}
-
-.main-box1{
-    width: 100%;
-    height: 70vh;
-    background-color: black;
-    display: grid;
-}
-
-.main-box2{
-    width: 100%;
-    height: 70vh;
-    background-color: black;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 100px 300px 100px 300px;
+    margin-top: 40px;
     gap: 10px;
 }
 
-.box{
-    width:100%;
-    /* height: 90% */
+.left {
+    /* width: 40%; */
+    height: 498px;
+    background-color: aqua;
+    margin-top: 220px;
+}
+
+.top {
+    height: 300px;
     background-color: blue;
-}
-.one{
-    
-}
-.three{
-}
-.two{
-    /* margin-bottom: 30px; */
-    /* height: 70px; */
-}
-.four{
-    /* margin-top: 20px; */
-    
-}
-.main-box3{
-    width: 100%;
-    height: 70vh;
-    background-color: black;
     display: grid;
+    grid-template-columns: 40% 58%;
+    gap: 20px;
+    justify-content: center;
 }
 
-.main-box4{
-    width: 100%;
-    height: 70vh;
-    background-color: black;
+/* .top{
+    width: 90%;
+    /* background-color: black; */
+/* padding-top:30px;
+    margin: auto;
     display: grid;
-}
-.main-box5{
-    width: 100%;
-    height: 70vh;
-    background-color: black;
-    display: grid;
+    grid-template-columns: 40% 50% ;
+    gap: 20px;
+    justify-content: center; */
+
+
+
+.box1 {
+    /* width:40%; */
+    height: 200px;
+    background-color: green;
+    margin-top: 100px;
+    border-radius: 10px;
 }
 
-.main-box6{
-    width: 100%;
-    height: 70vh;
-    background-color: black;
+.box2 {
+    /* width:40%; */
+    height: 300px;
+    background-color: orange;
+    border-radius: 10px;
+}
+
+.second-buttom {
+    width: 890px;
+    height: auto;
+    background-color: green;
     display: grid;
+    grid-template-columns: 60% 43%;
+}
+
+.box3 {
+    /* width: 600px;  */
+    height: 400px;
+    background-color: red;
+    border-radius: 10px;
+}
+
+.box4 {
+    /* width: 400px;  */
+    height: 500px;
+    background-color: black;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+/* .one{
+    width: 100%;
+    height: 200px;
+    background-color: red;
+    border-radius: 10px;
+} */
+/* .two{
+     width: 100%;
+    height:290px;
+     background-color: red;
+     margin-top: 20px;
+}
+
+.buttom{ */
+/* width: 55%;
+    height: 200px;
+    background-color: blueviolet; */
+/* margin: auto; */
+
+
+/* .left{
+    height: 300px;
+    background-color: orange;
+    margin-top: 180px;
+    margin-left: 50px;
+    border-radius: 20px;
+/* } */
+
+
+.third-box{
+    color:blue;
+    margin-left: 15px;
+    width: 70%;
+    height: 300px;
+    background-color: purple;
+    display: grid;
+    grid-template-columns: 55% 45%;
+}
+
+.boxa{
+    height: 300px;
+    background-color: chartreuse;
+}
+
+.boxb{
+    height: 300px;
+    background-color: aqua;
 }
