@@ -15,115 +15,130 @@
 
 .left {
     /* width: 40%; */
-    height: 498px;
-    background-color: aqua;
+    height: 500px;
+    /* background-color: aqua; */
     margin-top: 220px;
 }
 
 .top {
     height: 300px;
-    background-color: blue;
+    /* background-color: blue; */
+    width: 100%;
     display: grid;
-    grid-template-columns: 40% 58%;
+    grid-template-columns:40% 50%;
     gap: 20px;
     justify-content: center;
 }
-
-/* .top{
-    width: 90%;
-    /* background-color: black; */
-/* padding-top:30px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: 40% 50% ;
-    gap: 20px;
-    justify-content: center; */
-
-
-
-.box1 {
-    /* width:40%; */
+.box1{
+    /* width: 50%; */
+}
+.box1>img{
+    /* width:100%; */
     height: 200px;
-    background-color: green;
+    /* background-color: green; */
     margin-top: 100px;
     border-radius: 10px;
 }
+.box2{
+    /* width: 50%; */
+}
 
-.box2 {
-    /* width:40%; */
+.box2>img {
+    /* width:100%; */
     height: 300px;
-    background-color: orange;
+    /* background-color: orange; */
     border-radius: 10px;
 }
 
 .second-buttom {
-    width: 890px;
-    height: auto;
-    background-color: green;
-    display: grid;
-    grid-template-columns: 60% 43%;
-}
-
-.box3 {
-    /* width: 600px;  */
-    height: 400px;
-    background-color: red;
-    border-radius: 10px;
-}
-
-.box4 {
-    /* width: 400px;  */
-    height: 500px;
-    background-color: black;
-    border-radius: 10px;
-    margin-left: 30px;
-}
-
-/* .one{
     width: 100%;
-    height: 200px;
-    background-color: red;
+    height: auto;
+    /* background-color: green; */
+    display: grid;
+    grid-template-columns:1fr 1fr;
+}
+.box3{
+    width: 500px;
+}
+.box3>img {
+    width: 100%; 
+    height: 400px;
+    /* background-color: red; */
     border-radius: 10px;
-} */
-/* .two{
-     width: 100%;
-    height:290px;
-     background-color: red;
-     margin-top: 20px;
+}
+.box4{
+    width: 380px;
+    margin-left: 10px;
+    height: 600px;
+    /* background-color: black; */
+}
+.one>img {
+    width: 100%; 
+    height: 200px;
+    /* background-color: black; */
+    border-radius: 10px;
 }
 
-.buttom{ */
-/* width: 55%;
-    height: 200px;
-    background-color: blueviolet; */
-/* margin: auto; */
-
-
-/* .left{
-    height: 300px;
-    background-color: orange;
-    margin-top: 180px;
-    margin-left: 50px;
-    border-radius: 20px;
-/* } */
-
+ .two>img{
+     width: 100%;
+    height:380px;
+     /* background-color: red; */
+     margin-top: 20px;
+     border-radius: 10px;
+}
 
 .third-box{
-    color:blue;
+    /* color:blue; */
     margin-left: 15px;
     width: 70%;
     height: 300px;
-    background-color: purple;
+    /* background-color: purple; */
     display: grid;
     grid-template-columns: 55% 45%;
+    margin-top: 20px;
 }
-
 .boxa{
-    height: 300px;
-    background-color: chartreuse;
+     height: 300px;
+     width: 500px;
+      margin-right: 10px;
 }
 
+.boxa >img{
+    height: 300px;
+    width: 100%;
+    /* background-color: chartreuse; */
+    border-radius: 10px;
+   
+}
 .boxb{
     height: 300px;
-    background-color: aqua;
+    width: 400px;
+}
+.boxb>img{
+    height: 300px;
+    width: 100%;
+    /* background-color: aqua; */
+    border-radius: 10px;
+    margin-left: 10px;
+}
+/* .box-o{
+    width: 100%;
+    height: 200px;
+    background-color: red;
+} */
+
+.box-two-b>img{
+    width: 100%;
+    height: 230px;
+    /* background-color: black; */
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.box-one-a>img{
+    width: 100%;
+    height: 230px;
+    /* background-color: red; */
+    margin-top: 20px;
+    border-radius: 10px;
 }
